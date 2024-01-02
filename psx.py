@@ -1,5 +1,6 @@
+pip install beautifulsoup4
 import streamlit as st
-import BeautifulSoup as bs
+from bs4 import BeautifulSoup as bs
 
 import urllib.request
 import pandas as pd
