@@ -1,5 +1,4 @@
 import streamlit as st
-import BeautifulSoup as bs
 import urllib.request
 import pandas as pd
 import numpy as np
