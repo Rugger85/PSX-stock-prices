@@ -5,7 +5,7 @@ import subprocess
 subprocess.run(["pip", "install", "beautifulsoup4"])
 
 # Now you can import and use BeautifulSoup in your script
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup as bs
 
 import urllib.request
 import pandas as pd
