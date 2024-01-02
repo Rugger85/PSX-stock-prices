@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 import re
 
-st.image("black-and-green-modern-material-header-with-a-hexagonal-mesh-design-banner-with-polygonal-grid-and-blank-space-for-your-logo-abstract-website-design-vector.jpg")
+#st.image("black-and-green-modern-material-header-with-a-hexagonal-mesh-design-banner-with-polygonal-grid-and-blank-space-for-your-logo-abstract-website-design-vector.jpg")
 
 st.title("Welcome to PSX data")
 st.markdown=("---")
@@ -54,4 +54,4 @@ st.markdown=("---")
 
 st.dataframe(selected, width=1200)
 
-st.image("images.jpeg", width=700)
+#st.image("images.jpeg", width=700)
