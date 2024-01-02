@@ -1,4 +1,5 @@
 import streamlit as st
+pip install bs4
 from bs4 import BeautifulSoup as bs
 import urllib.request
 import pandas as pd
