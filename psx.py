@@ -1,6 +1,12 @@
 import streamlit as st
-pip install beautifulsoup4
-from bs4 import BeautifulSoup as bs
+import subprocess
+
+# Install BeautifulSoup using pip
+subprocess.run(["pip", "install", "beautifulsoup4"])
+
+# Now you can import and use BeautifulSoup in your script
+from bs4 import BeautifulSoup
+
 import urllib.request
 import pandas as pd
 import numpy as np
